@@ -1,0 +1,66 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.bold {
+  color: #7155a4;
+  font-weight: 700;
+}
+
+.description {
+  width: 40%;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: #7155a4;
+  color: white;
+  padding: 15px 25px;
+}
+
+.btn:hover {
+  background-color: #0f1131;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainDiv {
+    margin-top: 4rem;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .description {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .title {
+    font-size: 25px;
+  }
+
+  .description {
+    width: 80%;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+}

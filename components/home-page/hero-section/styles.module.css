@@ -1,0 +1,114 @@
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+
+.btnDiv {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 44px;
+}
+
+.bold {
+  color: #7155a4;
+  font-weight: 700;
+}
+
+.img {
+  width: 60%;
+}
+
+.btn {
+  background-color: #7155a4;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 25px;
+}
+
+.btn:hover {
+  background-color: #0F1131;
+  transition: 0.3s;
+}
+
+.btn2 {
+  background-color: #d0c2ea;
+  border-radius: 5px;
+  color: #121212;
+  padding: 15px 25px;
+}
+
+.btn2:hover {
+  background-color: #8C8697;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+
+  .contentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainDiv {
+    margin-top: 2rem;
+  }
+  .contentDiv {
+    width: 90%;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .btn2 {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,107 @@
+.mainDiv {
+  margin-top: 7rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.title {
+  font-size: 50px;
+  width: 50%;
+}
+
+.bold {
+  color: #7155a4;
+  font-weight: 700;
+}
+
+.btnDiv {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.services {
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #7155a4;
+  color: white;
+}
+
+.contact {
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #d0c2ea;
+}
+
+.services:hover {
+  background-color: #0f1131;
+  transition: 0.3s;
+}
+
+.contact:hover {
+  background-color: #8c8697;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainDiv {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 35px;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainDiv {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .title {
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .img {
+    margin-top: 2rem;
+  }
+
+  .services {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .contact {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}

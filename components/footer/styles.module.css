@@ -1,0 +1,164 @@
+.mainDiv {
+    margin-top: 10rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .contentDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .logoDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .handDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .subTitle {
+    font-size: 25px;
+    color: #121212;
+  }
+  
+  .description {
+    font-size: 40px;
+    color: #121212;
+  }
+  
+  .bold {
+    font-weight: 700;
+    color: #7155A4;
+  }
+  
+  .linkDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .title {
+    color: #121212;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .link {
+    color: #121212;
+    font-size: 14px;
+  }
+  
+  .infoDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .infoTitle {
+    color: #121212;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .socialMediaDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .socialTitle {
+    color: #121212;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .iconDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .mainDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 1rem;
+    }
+  
+    .contentDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      margin: auto;
+    }
+  
+    .logoDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .linkDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .infoDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .socialMediaDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .description {
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .description {
+      font-size: 25px;
+    }
+  }
+  

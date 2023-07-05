@@ -1,0 +1,115 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.socialDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #d0c2ea;
+  border-radius: 5px;
+  padding: 15px 25px;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.socialInfo {
+  color: #121212;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 700;
+  color: #7155a4;
+}
+
+.description {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainDiv {
+    margin-top: 4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .img {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .contentDiv {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .socialDiv {
+    font-size: 14px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .socialDiv {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}

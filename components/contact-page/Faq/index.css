@@ -1,0 +1,87 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.bold {
+  font-weight: 700;
+  color: #7155a4;
+}
+
+.accordian {
+  width: 70%;
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.accordian-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.content {
+  color: #848484;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+ 
+  .accordian {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .accordian-title {
+    font-size: 16px;
+  }
+
+  .accordian {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .content {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .item {
+    padding: 5px 10px;
+  }
+}

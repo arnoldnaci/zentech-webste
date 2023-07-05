@@ -1,0 +1,46 @@
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.bold {
+  color: #7155a4;
+}
+
+.subTitle {
+  color: #121212;
+}
+
+@media only screen and (max-width: 823px) {
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .contentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

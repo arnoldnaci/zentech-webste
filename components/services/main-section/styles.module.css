@@ -1,0 +1,78 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.description {
+  text-align: center;
+}
+
+.img {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 5rem;
+}
+
+.socialInfo {
+  color: #121212;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 700;
+  color: #7155a4;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainDiv {
+    margin-top: 4rem;
+  }
+
+  .contentDiv {
+    width: 80%;
+  }
+  .img {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contentDiv {
+    width: 90%;
+  }
+
+  .img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+}
